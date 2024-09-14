@@ -16,6 +16,7 @@ void Bishop::move(Position newPos) {
 
 bool Bishop::isValidMove(Position newPos) const {
     // checking that move is valid or not
+    return true;
 }
 
 Color Bishop::getColor() const {

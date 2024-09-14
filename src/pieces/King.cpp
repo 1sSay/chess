@@ -16,6 +16,7 @@ void King::move(Position newPos) {
 
 bool King::isValidMove(Position newPos) const {
     // checking that move is valid or not
+    return true;
 }
 
 Color King::getColor() const {

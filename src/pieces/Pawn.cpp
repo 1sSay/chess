@@ -16,6 +16,7 @@ void Pawn::move(Position newPos) {
 
 bool Pawn::isValidMove(Position newPos) const {
     // checking that move is valid or not
+    return true;
 }
 
 Color Pawn::getColor() const {

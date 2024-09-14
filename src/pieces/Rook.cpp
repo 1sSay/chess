@@ -16,6 +16,7 @@ void Rook::move(Position newPos) {
 
 bool Rook::isValidMove(Position newPos) const {
     // checking that move is valid or not
+    return true;
 }
 
 Color Rook::getColor() const {

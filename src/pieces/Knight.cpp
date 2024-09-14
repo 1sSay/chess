@@ -16,6 +16,7 @@ void Knight::move(Position newPos) {
 
 bool Knight::isValidMove(Position newPos) const {
     // checking that move is valid or not
+    return true;
 }
 
 Color Knight::getColor() const {

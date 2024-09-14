@@ -3,14 +3,13 @@
 #include <cstdlib>
 #include <utility>
 
+#include "include/board/Cell.h"
 #include "include/board/Color.h"
-#include "include/board/Position.h"
 
-class Piece {
+class Piece : public Cell {
 public:
-    virtual ~Piece();
+    virtual ~Piece() {};
     virtual void move(Position) = 0;
     virtual bool isValidMove(Position) const = 0;
     virtual Color getColor() const = 0;
-    virtual Position getPosition() const = 0;
 };

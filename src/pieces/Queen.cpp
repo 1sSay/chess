@@ -16,6 +16,7 @@ void Queen::move(Position newPos) {
 
 bool Queen::isValidMove(Position newPos) const {
     // checking that move is valid or not
+    return true;
 }
 
 Color Queen::getColor() const {

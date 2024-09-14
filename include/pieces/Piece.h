@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <utility>
 
-#include "include/pieces/PieceColor.h"
+#include "include/board/Color.h"
 #include "include/board/Position.h"
 
 class Piece {

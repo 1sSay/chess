@@ -2,11 +2,11 @@
 
 #include "include/pieces/Piece.h"
 
-class Pawn : public Piece {
+class Rook : public Piece {
     Color color;
     Position position;
 public:
-    Pawn(Color, Position);
+    Rook(Color, Position);
     void move(Position) override;
     bool isValidMove(Position) const override;
     Color getColor() const override;

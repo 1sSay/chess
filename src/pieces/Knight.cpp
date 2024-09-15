@@ -26,3 +26,7 @@ Color Knight::getColor() const {
 Position Knight::getPosition() const {
     return position;
 }
+
+char Knight::getLetter() const {
+    return 'N';
+}

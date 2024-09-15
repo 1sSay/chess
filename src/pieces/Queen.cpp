@@ -26,3 +26,7 @@ Color Queen::getColor() const {
 Position Queen::getPosition() const {
     return position;
 }
+
+char Queen::getLetter() const {
+    return 'Q';
+}

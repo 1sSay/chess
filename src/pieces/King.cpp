@@ -26,3 +26,7 @@ Color King::getColor() const {
 Position King::getPosition() const {
     return position;
 }
+
+char King::getLetter() const {
+    return 'K';
+}

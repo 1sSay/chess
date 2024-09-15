@@ -11,4 +11,5 @@ public:
     bool isValidMove(Position) const override;
     Color getColor() const override;
     Position getPosition() const override;
+    char getLetter() const override;
 };

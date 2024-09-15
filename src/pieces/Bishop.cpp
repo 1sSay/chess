@@ -26,3 +26,7 @@ Color Bishop::getColor() const {
 Position Bishop::getPosition() const {
     return position;
 }
+
+char Bishop::getLetter() const {
+    return 'B';
+}

@@ -26,3 +26,7 @@ Color Pawn::getColor() const {
 Position Pawn::getPosition() const {
     return position;
 }
+
+char Pawn::getLetter() const {
+    return 'P';
+}

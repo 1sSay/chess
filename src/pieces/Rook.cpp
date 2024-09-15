@@ -26,3 +26,7 @@ Color Rook::getColor() const {
 Position Rook::getPosition() const {
     return position;
 }
+
+char Rook::getLetter() const {
+    return 'R';
+}
